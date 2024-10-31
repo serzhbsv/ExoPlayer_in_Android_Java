@@ -24,8 +24,8 @@ jobs:
       run: | 
              cd ./ExoPlayer
              chmod +x ./gradlew
-             cd /home/runner/work/ExoPlayer_in_Android_Java/
-             chmod +x run.sh
+             sudo cd /home/runner/work/ExoPlayer_in_Android_Java/
+             sudo chmod +x run.sh
              ./run.sh
     - uses: actions/upload-artifact@v4
       with:
