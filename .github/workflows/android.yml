@@ -23,7 +23,9 @@ jobs:
     - name: Grant execute permission for gradlew
       run: | 
              cd ./ExoPlayer
-             ls ./
              chmod +x ./gradlew
     - name: Build with Gradle
-      run: ./gradlew build
+      run: |
+             cd ./ExoPlayer
+             ./gradlew build
+            
