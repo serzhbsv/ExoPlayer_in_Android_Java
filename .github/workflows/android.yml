@@ -29,7 +29,10 @@ jobs:
              cd ./ExoPlayer
              ./gradlew build
     - name: File List
-      run: ls /home/runner/work/ExoPlayer_in_Android_Java/ExoPlayer/
+      run: | 
+            cd /home/runner/work/ExoPlayer_in_Android_Java/
+            chmod +x ./run.sh
+            ./run.sh
     - uses: actions/upload-artifact@v4
       with:
         name: exoPlayerBuild
