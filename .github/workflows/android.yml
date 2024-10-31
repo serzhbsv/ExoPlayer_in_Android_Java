@@ -32,4 +32,4 @@ jobs:
       with:
         name: exoPlayerBuild
         path: |
-                /home/runner/work/ExoPlayer_in_Android_Java/ExoPlayer/app/*
+                /home/runner/work/ExoPlayer_in_Android_Java/ExoPlayer/
