@@ -25,7 +25,9 @@ jobs:
             cd ./ExoPlayer
             chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew build
+      run: |
+            cd ./ExoPlayer
+            ./gradlew build
     - uses: actions/upload-artifact@v4
       with:
         name: Save-ExoPlayerArtifact
