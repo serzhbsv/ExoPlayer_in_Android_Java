@@ -31,5 +31,6 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: exoPlayerBuild
+        run:  ls /home/runner/work/ExoPlayer_in_Android_Java/ExoPlayer/app/
         path: |
-                /home/runner/work/ExoPlayer_in_Android_Java/ExoPlayer/app/build/
+              /home/runner/work/ExoPlayer_in_Android_Java/ExoPlayer/app/build/
