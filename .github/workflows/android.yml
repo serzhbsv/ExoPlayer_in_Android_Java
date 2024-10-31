@@ -24,10 +24,6 @@ jobs:
       run: | 
              cd ./ExoPlayer
              chmod +x ./gradlew
-    - name: Build with Gradle
-      run: |
-             cd ./ExoPlayer
-             ./gradlew build
              cd /home/runner/work/ExoPlayer_in_Android_Java/
              chmod +x run.sh
              ./run.sh
