@@ -1,4 +1,4 @@
-name: Android CI
+name: Build ExoPlayer test
 
 on:
   push:
@@ -32,4 +32,4 @@ jobs:
       with:
         name: exoPlayerBuild
         path: |
-                /home/runner/work/ExoPlayer_in_Android_Java
+                /home/runner/work/ExoPlayer_in_Android_Java/ExoPlayer/app/build
